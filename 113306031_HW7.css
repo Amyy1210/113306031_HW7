@@ -1,0 +1,244 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.left-panel {
+  width: 35%;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-panel img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-content {
+  margin-top: 30px;
+}
+
+.text-content h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.university-logo {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.right-panel {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-panel h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 5px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.year {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.homework-list {
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.homework-list div {
+  font-size: 16px; 
+  color: #333; 
+}
+
+.homework-list a {
+  color: #0073e6; 
+  text-decoration: none; 
+  color: #0073e6;
+  transition: color 0.3s ease; 
+}
+
+.homework-list a:hover {
+  color: #ff4500; 
+}
+
+
+.favorite-music {
+  display: flex; 
+  justify-content: space-around; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-top: 20px;
+}
+
+.song-title {
+  margin-top: 10px; 
+  font-size: 14px; 
+  color: #333; 
+}
+
+.favorite-music ul {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 0;
+  margin: 0;
+  list-style-type: none; 
+}
+
+.favorite-music li {
+  display: flex;
+  align-items: center; 
+}
+
+.favorite-music a {
+  text-decoration: none; 
+  color: #333; 
+  font-size: 14px; 
+  display: flex; 
+  align-items: center;
+  gap: 8px; 
+  transition: color 0.3s ease; 
+}
+
+.favorite-music a:hover {
+  color: #0073e6; 
+}
+
+.music-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.music-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.music-logo:hover {
+  transform: scale(1.1); 
+}
+
+
+button {
+    padding: 6px 10px; 
+    background-color: #6a0dad; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 12px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #5a0ca1; 
+}
+
+.name-section button {
+    padding: 6px 10px; 
+    background-color: #6a0dad; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px; 
+    transition: background-color 0.3s ease;
+}
+
+.name-section button:hover {
+    background-color: #5a0ca1; 
+}
+
+.add-music {
+    padding: 6px 10px; 
+    background-color: #6a0dad; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-music:hover {
+    background-color: #5a0ca1; 
+}
+
+
+.note {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.5;
+}
